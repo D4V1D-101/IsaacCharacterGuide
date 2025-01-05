@@ -1,0 +1,15 @@
+Isaac;D6;Active;Upon use, replaces every item in the current room (not pickups or trinkets) with other random items corresponding to the current item pool;Item Room
+Magdalene;Yum Heart;Active;Heals one full red heart container and can be used once every 3 rooms;Item Room
+Cain;Lucky Foot;Active;Increases the chance of getting better item drops and re-rolls bad luck;Item Room
+Judas;Book of Belial;Active;Increases damage for the current room and lasts for the entire room;Item Room
+Eden;Eden's Blessing;Active;Gives one random item from the item pool at the start of each new run;Starting Item
+Samson;Bloody Lust;Active;Increases damage with every enemy killed in the current room;Item Room
+Azazel;Brimstone;Active;Gives the character a wide laser beam that can pierce through enemies and obstacles;Item Room
+Lazarus;D4;Active;Re-rolls all the character's items and stats;Item Room
+Eve;Dead Bird;Active;Spawns a flying companion that deals damage to enemies when hit;Item Room
+Blue Baby;Poop;Active;Spawns poop in the current room, which can be used for various effects like finding consumables or blocking enemies;Item Room
+The Forgotten;Bone Club;Active;A weapon that can be swung to attack enemies, deals damage to enemies in its path;Item Room
+The Keeper;Wooden Nickel;Active;Spawns a poop in the room that can potentially yield random consumables or block enemies;Starting Item
+Apollyon;Void;Active;Devours items in the room to gain new effects or abilities;Item Room
+Bethany;Book of Virtues;Active;Spawns a familiar with the effects of items used in the current room, depending on the active item;Item Room
+Jacob;Jacob's Ladder;Active;Shoots electric arcs between enemies, dealing damage;Item Room

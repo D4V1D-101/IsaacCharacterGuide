@@ -1,0 +1,15 @@
+Isaac;Male;Human;Yes;2008.5.6
+Magdalene;Female;Human;Yes;2011.11.4
+Cain;Male;Human;Yes;2011.11.4
+Judas;Male;Human;Yes;2011.11.4
+Eden;Male;Human;No;2011.11.4
+Samson;Male;Human;No;2011.11.4
+Azazel;Male;Demon;Yes;2011.11.4
+Lazarus;Male;Human;No;2011.11.4
+Eve;Female;Human;Yes;2012.5.10
+Blue Baby;???;???;Yes;2011.11.4
+The Forgotten;Male;Soul;Yes;2020.3.31
+The Keeper;Male;Bagger;Yes;2015.5.10
+Apollyon;Male;Void Creature;No;2017.3.17
+Bethany;Female;Human;No;2017.3.17
+Jacob;Male;Human;No;2021.3.19
