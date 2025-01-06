@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:IsaacCharacterGuide"
         mc:Ignorable="d"
         Title="IsaacCharacterWiki" Height="597" Width="1016"
-        FontFamily="pack://application:,,,/Fonts/#upheavtt">
+        FontFamily="pack://application:,,,/Fonts/#upheavtt"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="pack://application:,,,/images/background.jpg" Stretch="Fill" />
@@ -47,26 +48,15 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Label x:Name="ReleaseLbl"
-               Grid.Column="1"
-               Content="Label"
-               HorizontalAlignment="Left"
-               Grid.Row="1"
-               VerticalAlignment="Center"
-               VerticalContentAlignment="Center"
-               HorizontalContentAlignment="Center"
-               Margin="590,0,0,0" />
-
         <DataGrid x:Name="StarterItemsDataGrid"
                   Grid.Column="1"
                   Grid.Row="3"
-                  Margin="10,10,10,10"
+                  Margin="0,98,0,0"
                   AutomationProperties.IsRowHeader="True"
                   SelectionUnit="CellOrRowHeader"
                   HorizontalContentAlignment="Center"
                   VerticalContentAlignment="Center"
-                  VerticalAlignment="Bottom"
-                  HorizontalAlignment="Center" FontFamily="Impact">
+                  VerticalAlignment="Top" FontFamily="Impact" HorizontalAlignment="Center">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
                 <DataGridTextColumn Header="Is Active ?" Binding="{Binding IsActive}"/>
@@ -84,9 +74,11 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        
+
         <Image x:Name="ItemI" Grid.Column="1" HorizontalAlignment="Left" Height="150" Margin="508,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="150"/>
         <Image x:Name="CharacterI" Grid.Column="1" HorizontalAlignment="Left" Height="150" Margin="150,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="150"/>
-        <Label x:Name="ReleaseDateLbl" Grid.Column="1" Content="Label" HorizontalAlignment="Center" Height="38" Grid.Row="1" VerticalAlignment="Center" Width="536" Foreground="White" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Impact"/>
+        <Label x:Name="ReleaseDateLbl" Grid.Column="1" Content="" HorizontalAlignment="Left" Height="38" Grid.Row="1" VerticalAlignment="Center" Width="220" Foreground="White" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Impact" Margin="453,0,0,0"/>
+        <Label Grid.Column="1" Content="Release Date:" HorizontalAlignment="Left" Height="38" Grid.Row="1" VerticalAlignment="Center" Width="220" Foreground="White" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Impact" Margin="150,0,0,0"/>
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" Height="124" Grid.Row="3" VerticalAlignment="Center" Width="328"/>
     </Grid>
 </Window>

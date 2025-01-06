@@ -75,7 +75,7 @@ namespace IsaacCharacterGuide
         {
             
             var Release = charactersList.Where(x=>x.Name.Equals(CharacterPicker.SelectedItem)).Single();
-            ReleaseDateLbl.Content = Release.ReleaseDate.ToString();
+            ReleaseDateLbl.Content = Release.ReleaseDate.ToString("yyyy-MM-dd");
         }
         private void FillStarterStat()
         {
